@@ -57,12 +57,3 @@
 
 ![Confusion Matrix](https://github.com/kaledhoshme123/Using-GAN-to-Generate-Chest-X-Ray-Images/assets/108609519/cab6ec07-b84b-43cf-b74a-1d9abcbbda53)
 </details>
-
-### 6. Summary & Future Work
-- The proposed cGAN successfully generated high‑quality chest X‑ray images that capture critical pathological patterns.  
-- **Limitations:** Slight class imbalance in the original dataset led to minor accuracy variance; extending training time and scaling up resolution (e.g., 128×128) may further improve realism.  
-- **Next Steps:**  
-  1. Increase resolution and incorporate progressive growing.  
-  2. Experiment with attention‑based discriminators to sharpen localized abnormalities.  
-  3. Validate transfer performance on an external clinical dataset.  
-- **Conclusion:** This approach demonstrates that GAN‑augmented data can effectively enrich training sets for downstream diagnostic models.
